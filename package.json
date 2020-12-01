@@ -1,0 +1,25 @@
+{
+  "name": "raspiroom_client",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^1.0.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@types/chart.js": "^2.9.24",
+    "axios": "^0.21.0",
+    "chart.js": "^2.9.3",
+    "firebase": "^7.20.0",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.0",
+    "@nuxt/typescript-build": "^2.0.2",
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
